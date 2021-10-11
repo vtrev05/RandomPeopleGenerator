@@ -20,11 +20,11 @@ const getInfo = async () => {
   //BIRTH DATE
   document.querySelector('.birth').innerHTML = `<h4 class="result">${userInfo[0].birthDay}</h4>`
   //PROVINCE
-  document.querySelector('.province').innerHTML = `<h4 class="result">${userInfo[0].province}</h4>`
+  document.querySelector('.province').innerHTML = `<h4 class="result">Provincia: ${userInfo[0].province}</h4>`
   //NIF
-  document.querySelector('.nif').innerHTML = `<h4 class="result">${userInfo[0].nif}</h4>`
+  document.querySelector('.nif').innerHTML = `<h4 class="result">NIF: ${userInfo[0].nif}</h4>`
   //PHONE NUMBER
-  document.querySelector('.phoneNumber').innerHTML = `<h4 class="result">${userInfo[0].number}</h4>`
+  document.querySelector('.phoneNumber').innerHTML = `<h4 class="result">Teléfono: ${userInfo[0].number}</h4>`
 }
 
 searchButton.addEventListener("click", getInfo); 

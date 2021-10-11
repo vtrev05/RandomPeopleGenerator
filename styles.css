@@ -3,140 +3,37 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color: #21262d;
+    /* #d4eafc
+    #1c2c43 */
 }
 
 .card{
-    border: 2px solid #d4eafc;
-    border-radius: 8px;
-    background-color: #1c2c43;
-    width: 90%;
+    width: 100%;
+    padding: 100px;
     height: auto;
-    margin: 60px auto;
+    background-color: #1c2c43;
+    color: #d4eafc;
+}
+.search{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    color: #1c2c43;
+    background-color: #d4eafc;
 }
 h1{
     width: 100%;
-    font-size: 28px;
-    padding: 15px;
-    margin-top: 30px;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin: 0 auto;
+    margin-bottom: 80px;
+    font-size: 45px;
+    background-color: #1c2c43;
     color: #d4eafc;
 }
-
-h2 {
-    display: inline-block;
-    font-size: 23px;
-    padding: 8px;
-    margin-top: 30px;
-    font-weight: 700;
-    max-width: 220px;
-    border-radius: 8px;
-    border: 2px solid #d4eafc;
-    color: #d4eafc;
-    margin: 0 auto;
-    text-align: center;
-}
-.date{
-    max-width: 300px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.lUpdate{
-    max-width: 400px;
-}
-
-.dateOfCreate{
-    display: block;
-    width: 100%;
-}
-h3, p{
-    display: inline-block;
-    font-size: 22px;
-    padding: 18px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: 700;
-    max-width: 600px;
-    border-radius: 8px;
-    color: #d4eafc;
-    margin: 0 auto;
-    text-align: center;
-}
-h2:hover{
-    background-color: #21262d;
-    color: #d4eafc;
-    border: 3px solid #d4eafc;
-}
-.numberOfRepos, .numberOfReposOrg{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-.repos{
-    display: block;
-    font-size: 23px;
-    padding: 8px;
-    font-weight: 700;
-    max-width: 320px;
-    border-radius: 8px;
-    margin: 0 auto 15px auto;
-}
-.search, .searchGithubOrg{
-    width: 300px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #21262d;
-    background-color: #d4eafc;
-    border: 3px solid #21262d;
-    margin: 10px auto;
-    
-}
-.search:hover, .searchGithubOrg:hover{
-    color: #d4eafc;
-    background-color: #21262d;
-    border: 2px solid #d4eafc;
-}
-.result, .twitter, .location, .website, .email, a{
-    display: inline-block;
-    width: 100px;
-    color: #d4eafc;
-    text-align: center;
+.result{
+    font-size: 70px;
     text-transform: capitalize;
-    margin: 0 15px;
+    word-spacing: 2rem;
 }
-.twitter, .location, .website, .email{
-    width: 360px;
-    max-width: 400px;
-}
-.dateResult{
-    width: 400px;
-    letter-spacing: .25rem;
-}
-.username, .orgName{
-    display: block;
-    min-width: 200px;
-    padding: 5px;
-    background-color: #d4eafc;
-    color: #21262d;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    margin: 10px auto;
-}
-img {
-    display: block;
-    width: 300px;
-    border-radius: 50%;
-    background-size: contain;
-    padding: 10px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px;
-  }
