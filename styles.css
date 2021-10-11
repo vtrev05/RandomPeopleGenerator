@@ -1,10 +1,10 @@
+*{
+    background-color: #1c2c43;
+}
 body{
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #21262d;
-    /* #d4eafc
-    #1c2c43 */
 }
 
 .card{
